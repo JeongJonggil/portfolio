@@ -1,0 +1,65 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+@media(max-width: 992px){
+  .navbar-brand{
+    display: none;
+  }
+  .nav
+}
+
+
+.frontpage{
+  padding-top: 4rem;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.frontpage > .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-intro{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+
+.my-intro > .container{
+  display: flex;
+}
+
+.my-intro > .border{
+  width: 50%;
+  height: 100%;
+}
+
+.self_img{
+  width: 10px;
+}
+
+.typetext{
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center
+}
+
+
+.skills{
+  height: 300px;
+  background-color: lightgray;
+}
+
+.project{
+  height: 300px;
+
+}
+
+.contact{
+  height: 300px;
+  background-color: lightgray;
+}
